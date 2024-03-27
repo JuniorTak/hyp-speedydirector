@@ -1,0 +1,9 @@
+# Wordpress custom theme
+
+# ignore HTML/CSS files
+/HTML/
+
+# ignore all themes except for our custom theme
+#
+/*
+!/speedydirector/
