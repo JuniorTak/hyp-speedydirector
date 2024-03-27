@@ -4,6 +4,8 @@
 /HTML/
 
 # ignore all themes except for our custom theme
-#
 /*
 !/speedydirector/
+
+# ignore the index
+/index.php
