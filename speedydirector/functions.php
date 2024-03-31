@@ -27,4 +27,7 @@ if (function_exists('register_sidebar')) {
         )
     );
 }
+
+require_once('business-manager.php');
+
 ?>
