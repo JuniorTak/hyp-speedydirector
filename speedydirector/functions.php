@@ -30,6 +30,7 @@ if (function_exists('register_sidebar')) {
 
 require_once('business-manager.php');
 require_once('theme-options.php');
+require_once('speedydirector-widgets.php');
 
 /* Apply the rewrite to include CPT */
 add_action('init', 'speedydirector_rewrite');
