@@ -41,4 +41,10 @@ function speedydirector_rewrite() {
     $wp_rewrite->flush_rules();
 }
 
+/* Apply a filter to the excerpt */
+function speedydirector_excerpt_more($more) {
+    return ' <a href="'. get_permalink() .'">Continue...</a>';
+}
+add_filter('excerpt_more', 'speedydirector_excerpt_more', 999);
+
 ?>
