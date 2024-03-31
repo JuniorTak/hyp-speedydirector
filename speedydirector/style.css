@@ -10,3 +10,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: basic, minimalist, custom-theme, two-column
 Text Domain: speedydirector
 */
+
+@import url("css/reset.css");
+@import url("css/master.css");
+@import url("css/ie.css");
