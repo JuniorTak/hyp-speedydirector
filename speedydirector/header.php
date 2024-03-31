@@ -13,7 +13,8 @@
         <div id="container" class="group">
             <!-- Header - Name of Item Here -->
             <header class="group">
-                <h1><a href="<?php echo home_url('/'); ?>"><img src="<?php print IMAGES.'/logo.png'; ?>" alt="<?php bloginfo('name'); ?>" /></a></h1>
+                <?php $logo= get_option('director_logo'); if(!$logo) $logo = IMAGES.'/logo.png'; ?>
+                <h1><a href="<?php echo home_url('/'); ?>"><img src="<?php print $logo; ?>" alt="<?php bloginfo('name'); ?>" /></a></h1>
                 <?php get_search_form(); ?>
                 <?php wp_nav_menu(array('menu' => 'Main', 'container' => 'nav')); ?>
             </header>
