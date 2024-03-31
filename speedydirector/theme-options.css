@@ -1,0 +1,8 @@
+/**THEME OPTIONS STYLES**/
+input[type="text"] {
+    width: 280px;  
+}
+textarea {
+    min-width: 280px;
+    min-height: 100px;
+}
