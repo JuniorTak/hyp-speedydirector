@@ -30,4 +30,13 @@ if (function_exists('register_sidebar')) {
 
 require_once('business-manager.php');
 
+/* Apply the rewrite to include CPT */
+add_action('init', 'speedydirector_rewrite');
+function speedydirector_rewrite() {
+    global $wp_rewrite;
+    $wp_rewrite->add_permastruct('typename', 'typename/%year%/%postname%/', true, 1);
+    add_rewrite_rule('typename/([0-9]{4})/(.+)/?$', 'index.php?typename=$matches[2]', 'top');
+    $wp_rewrite->flush_rules();
+}
+
 ?>
