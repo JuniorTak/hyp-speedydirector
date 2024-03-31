@@ -19,5 +19,6 @@
                 <?php wp_nav_menu(array('menu' => 'Main', 'container' => 'nav')); ?>
             </header>
             <!-- End Header -->
+            <?php if(!is_front_page() && !is_home()) : ?> <hr/> <?php endif; ?>
             <!-- Main Area -->
             <div id="content" class="group">
