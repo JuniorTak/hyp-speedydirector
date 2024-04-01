@@ -11,7 +11,7 @@ font-size: 62.5%;
 margin-top: 10px;
 }
 
-a, a:visited{ 
+a, a:visited{
 font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 font-weight: bold;
 color: #c94623;
@@ -19,14 +19,14 @@ text-transform: uppercase;
 text-decoration: none;
 }
 
-a:hover{ 
+a:hover{
 color: #f76d36;
 }
 
 a img { border: none; }
 
 address{
-font-weight: bold; 
+font-weight: bold;
 }
 
 blockquote{
@@ -36,7 +36,7 @@ margin-left: 30px;
 line-height: 1.25em;
 }
 
-code{ 
+code{
 font-family: Courier, monospace;
 }
 
@@ -69,7 +69,7 @@ padding-bottom: 3px;
 form div input, form div textarea{
 width: 400px;
 padding: 5px;
-font-size: 1.15em; 
+font-size: 1.15em;
 margin-top: 5px;
 }
 
@@ -132,7 +132,7 @@ text-align: left;
 
 
 header h1{
-float: left; 
+float: left;
 padding: 0;
 margin: 0;
 }
@@ -215,7 +215,7 @@ background: #CFCFCF;
 }
 
 #posts, .widget, #blog .post{
-border-top: 4px #d4d4d4 double;	
+border-top: 4px #d4d4d4 double;
 }
 
 #posts a.visit{
@@ -406,11 +406,11 @@ float: right;
 /* self-clear floats */
 
 .group:after {
-	content: "."; 
-    display: block; 
-    height: 0; 
-    clear: both; 
-    visibility: hidden;
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 
 /*WordPress Image Classes*/
